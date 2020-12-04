@@ -6,8 +6,8 @@
     "start": "ts-node src"
   },
   "dependencies": {
-    "@example/db-one": "workspace:^1.0.0",
-    "@example/db-two": "workspace:^1.0.0",
+    "@example/db-one": "^1.0.0",
+    "@example/db-two": "^1.0.0",
     "faker": "^5.1.0"
   },
   "devDependencies": {
