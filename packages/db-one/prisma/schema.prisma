@@ -1,0 +1,15 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DB_ONE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../dist/"
+}
+
+
+model User {
+  id      Int      @id @default(autoincrement())
+  name    String
+}

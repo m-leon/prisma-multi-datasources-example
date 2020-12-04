@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "outDir": "build",
+    "sourceMap": true,
+    "strict": true
+  }
+}

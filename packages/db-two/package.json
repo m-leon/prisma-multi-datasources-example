@@ -1,0 +1,16 @@
+{
+  "name": "@example/db-two",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.12.1"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.12.1"
+  }
+}
