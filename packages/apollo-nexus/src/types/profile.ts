@@ -5,11 +5,10 @@ export const Profile = objectType({
   definition(t) {
     t.nonNull.int('id');
     t.nonNull.string('bio');
-    t.int('userId');
   }
 });
 
-export const UserProfiles = extendType({
+export const UserToProfile = extendType({
   type: 'User',
   definition(t) {
     t.nonNull.list.field('profiles', {
