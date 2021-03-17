@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "ts-node src"
+    "dev": "ts-node src"
   },
   "dependencies": {
     "@example/db-one": "^1.0.0",
