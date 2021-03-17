@@ -19,6 +19,10 @@ Execute the following:
 git clone https://github.com/m-leon/prisma-multi-datasources-example.git
 cd prisma-multi-datasources-example
 yarn
+cd packages/db-one
+yarn prisma db push --preview-feature
+cd ../db-two
+yarn prisma db push --preview-feature
 ```
 
 ## Usage
