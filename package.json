@@ -1,6 +1,6 @@
 {
   "name": "@example/monorepo",
-  "private": true,
+  "license": "MIT",
   "version": "1.0.0",
   "workspaces": [
     "packages/*"

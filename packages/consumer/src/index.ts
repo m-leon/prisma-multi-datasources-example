@@ -46,4 +46,7 @@ const createUser = async (name: string, bio: string) => {
 
     console.log(result);
   }
-})();
+})().finally(() => {
+  prismaOne.$disconnect();
+  prismaTwo.$disconnect();
+});
