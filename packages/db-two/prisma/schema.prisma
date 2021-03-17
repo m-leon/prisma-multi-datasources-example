@@ -8,7 +8,6 @@ generator client {
   output   = "../dist/"
 }
 
-
 model Profile {
   id      Int      @id @default(autoincrement())
   bio     String

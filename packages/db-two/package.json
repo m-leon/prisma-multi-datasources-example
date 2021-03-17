@@ -8,9 +8,9 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "^2.12.1"
+    "@prisma/client": "^2.19.0"
   },
   "devDependencies": {
-    "@prisma/cli": "^2.12.1"
+    "prisma": "^2.19.0"
   }
 }
